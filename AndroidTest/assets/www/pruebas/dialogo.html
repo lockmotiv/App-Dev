@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mi primera pagina Jquery</title>
+
+
+<link rel="stylesheet" href="jquery.mobile-1.1.0.min.css" />
+<script src="jquery-1.6.4.min.js"></script>
+<!-- <script src="jquery.mobile-1.1.0.min.js"></script> ### con este no funcionan las transiciones ### -->
+<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+
+
+</head>
+
+<body>
+
+	<!-- ####################### -->
+	<!-- ###### Dialogo   ###### -->
+	<!-- ####################### -->
+    <div data-role="page" data-theme="e" id="main">
+        <div data-role="header" data-theme="e">
+            <h1>Dialogo</h1>
+        </div>
+        <div data-role="content">
+			<p>Vas a eliminar algo muy importante<p>
+            <a href="#confirmacion" data-role="button" data-rel="dialog">Eliminar</a>
+        </div>
+        <div data-role="footer" data-theme="b">
+            <h4>www.locallocal.de</h4>
+        </div>
+    </div>
+
+    <!-- ####################### -->
+    <!-- ###### Confirmacion   ###### -->
+    <!-- ####################### -->
+    <div data-role="page" id="confirmacion">
+        
+        <div data-role="header">
+            <h1>Eliminar</h1>
+        </div>
+    
+        <div data-role="content">
+            <a href="#main" data-role="button" data-rel="back">Si, eliminar</a>
+            <a href="#main" data-role="button" data-rel="back">Cancelar</a>
+        </div>
+
+    
+    </div>
+
+
+
+
+
+</body>
+</html>
