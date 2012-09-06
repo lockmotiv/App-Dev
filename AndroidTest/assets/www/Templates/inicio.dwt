@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>LokalLokal.de - Home</title>
+<!-- TemplateEndEditable -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css" />
+<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+<meta name="viewport" content="width=device-width,user-scalable=no" />
+<meta name="apple-touch-fullscreen" content="yes" />
+<!-- TemplateBeginEditable name="head" -->
+
+
+<!-- TemplateEndEditable -->
+</head>
+<body>
+<!-- ####################### -->
+<!-- ###### Dialogo   ###### -->
+<!-- ####################### -->
+<div data-role="page" data-theme="b" data-add-back-btn="true">
+    
+    <div data-role="header">
+        <!--<h1>lokallokal</h1>-->
+    </div>
+
+    
+	<!-- TemplateBeginEditable name="EditContenido" -->
+	<div data-role="content">
+    <p>contenido</p>
+    
+    <!-- TemplateEndEditable -->
+    </div>
+
+
+
+
+
+
+<style type="text/css">
+    .nav-glyphish-example .ui-btn .ui-btn-inner { padding-top: 40px !important; }
+    .nav-glyphish-example .ui-btn .ui-icon { width: 30px!important; height: 30px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: none !important; border-radius: none !important; }
+    #home .ui-icon { background:  url(img/53-house.png) 50% 50% no-repeat; background-size: 22px 22px; }
+    #search .ui-icon { background:  url(img/06-magnify.png) 50% 50% no-repeat; background-size: 24px 24px;  }
+</style>
+
+
+    <div data-role="footer" data-theme="a" data-position="fixed" data-id="idFooter" class="nav-glyphish-example">
+        <div data-role="navbar" class="nav-glyphish-example" data-grid="a">
+            <ul>
+    		</ul>
+        </div>
+    </div>
+
+
+</div>
+
+
+
+
+
+</body>
+</html>
