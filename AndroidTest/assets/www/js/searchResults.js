@@ -1,19 +1,17 @@
-var db;
-var dbCreated = false;
+
 
 var scroll = new iScroll('wrapper', { vScrollbar: false, hScrollbar:false, hScroll: false });
 
-document.addEventListener("deviceready", onDeviceReady, false);
 
-function onDeviceReady() {
+function onPageReady() {
     db = window.openDatabase("LokallokalDirectoryDB", "1.0", "Lockmotiv Lokallokal", 200000);
-    if (dbCreated)
-    {    	
-    	db.transaction(getEntries, transaction_error);
-    }
-    else
-    {    
+    if (typeof dbCreated == 'undefined' || !dbCreated)   {
+    	console.log(1)    	
     	db.transaction(populateDB, transaction_error, populateDB_success);
+    }
+    else {  
+    	console.log(2)    	  
+    	db.transaction(getEntries, transaction_error);
     }
 }
 
