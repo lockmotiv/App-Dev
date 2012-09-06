@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile</title>
+
+<meta name="viewport" content="width=device-width,user-scalable=no" />
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.css" />
+<script src="http://code.jquery.com/jquery-1.6.4.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.0.1/jquery.mobile-1.0.1.min.js"></script>
+
+</head>
+
+<body>
+
+
+	<div data-role="page" data-theme="b" id="pagina1">
+    	<div data-role="header">
+        	<h1>Xciento :: Te pagamos por tus compras</h1>
+        </div>
+    	<div data-role="content">
+    
+            <a href="#pagina2" data-role="button" data-transition="flip">Ir a pagina 2</a>
+
+            <a href="pagina2.html" data-role="button" >Ir a pagina 2 (externa)</a>
+
+        
+        	<p>Este es el texto de la pagina</p>
+            <p data-role="autoform">Usuario:</p>
+            <a href="#" data-role="button" data-theme="a" data-inline="true">Cancelar</a>
+            <a href="#" data-role="button" data-theme="b" data-inline="true">Aceptar</a>
+        </div>
+    	<div data-role="footer"  data-theme="b">
+        	<h4>www.xciento.es</h4>
+        </div>
+   </div>
+
+
+
+
+	<div data-role="page" data-theme="b" id="pagina2" data-add-back-btn="true" >
+    	<div data-role="header">
+        	<h1>Xciento :: Te pagamos por tus compras</h1>
+        </div>
+    	<div data-role="content">
+        	<p>esta es la segunda pagina</p>
+            <a href="#pagina1" data-rel="back">Volver</a>
+        </div>
+    	<div data-role="footer"  data-theme="b">
+        	<h4>www.xciento.es</h4>
+        </div>
+   </div>
+
+</body>
+</html>
