@@ -1,0 +1,1 @@
+$('#sResults').live("pageinit", onPageReady);
